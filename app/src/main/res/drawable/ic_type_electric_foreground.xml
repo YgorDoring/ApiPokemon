@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:color="?attr/colorControlHighlight"
+    tools:ignore="MissingDefaultResource">
+
+
+    <item >
+        <shape>
+            <!-- Color doesn't matter -->
+            <solid android:color="@color/electric" />
+            <corners android:radius="360dp" />
+        </shape>
+    </item>
+
+</ripple>

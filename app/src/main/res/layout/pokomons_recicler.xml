@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="16dp"
+    android:background="@drawable/background_item_pokemon"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:paddingLeft="5dp">
+
+            <FrameLayout
+                android:id="@+id/frameTipo1"
+                style="@style/styleFrameType">
+
+                <ImageView
+                    android:id="@+id/imageTipo01"
+                    style="@style/imagemDoTipo"
+                    app:srcCompat="@drawable/flying" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frameTipo2"
+                style="@style/styleFrameType">
+
+                <ImageView
+                    android:id="@+id/imageTipo02"
+                    style="@style/imagemDoTipo"
+                    app:srcCompat="@drawable/fire" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frameTipo3"
+                style="@style/styleFrameType">
+
+                <ImageView
+                    android:id="@+id/imageTipo03"
+                    style="@style/imagemDoTipo"
+                    app:srcCompat="@drawable/dragon" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageViewPokemon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            tools:srcCompat="@tools:sample/avatars" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nomePokemon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="18sp" />
+</LinearLayout>
