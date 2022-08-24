@@ -7,6 +7,7 @@ Aplicação Android toda feita em kotlin utilizando um curso gratuito do Youtube
 - Jetpack's ViewModel
 - MVVM
 - Repository
+- Koin
 - Retrofit
 
 API: https://pokeapi.co/
